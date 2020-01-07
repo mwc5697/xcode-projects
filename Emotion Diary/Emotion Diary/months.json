@@ -1,0 +1,32 @@
+[
+  {
+    "month": "October",
+    "imageName": "happy",
+    "text": "I love this app",
+  },
+  {
+      "month": "October",
+      "imageName": "angry",
+      "text": "I am so angry",
+  },
+  {
+      "month": "November",
+      "imageName": "sad",
+      "text": "I'm sad",
+  },
+  {
+      "month": "November",
+      "imageName":"depressed",
+      "text": "depressed day",
+  },
+  {
+      "month": "November",
+      "imageName": "sad",
+      "text": "I'm sad",
+  },
+  {
+      "month": "December",
+      "imageName": "happy",
+      "text": "Today is a good day",
+  }
+]

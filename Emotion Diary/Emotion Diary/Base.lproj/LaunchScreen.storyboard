@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soso" translatesAutoresizingMaskIntoConstraints="NO" id="9Ov-1G-Rs3">
+                                <rect key="frame" x="97" y="398" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Jtr-5j-wXn"/>
+                                    <constraint firstAttribute="width" constant="100" id="aTT-gp-IlB"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="angry" translatesAutoresizingMaskIntoConstraints="NO" id="3FY-bU-iIH">
+                                <rect key="frame" x="97" y="518" width="100" height="100"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="happy" translatesAutoresizingMaskIntoConstraints="NO" id="EpB-xr-dD7">
+                                <rect key="frame" x="97" y="278" width="100" height="100"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f01-QH-zU3">
+                                <rect key="frame" x="207" y="453" width="98.5" height="80"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="50"/>
+                                <color key="textColor" red="0.96817761659622192" green="0.58186554908752441" blue="0.59434258937835693" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i6g-jF-T42">
+                                <rect key="frame" x="207" y="538" width="124" height="80"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="50"/>
+                                <color key="textColor" red="0.5461457371711731" green="0.73505353927612305" blue="0.88091552257537842" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3M3-QN-1TI">
+                                <rect key="frame" x="207" y="278" width="100.5" height="80"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="50"/>
+                                <color key="textColor" red="0.72938317060470581" green="1" blue="0.78973573446273804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="was" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VXt-MV-pfn">
+                                <rect key="frame" x="207" y="363" width="85" height="80"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="50"/>
+                                <color key="textColor" red="0.97378391027450562" green="0.95801502466201782" blue="0.57007259130477905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="i6g-jF-T42" firstAttribute="bottom" secondItem="3FY-bU-iIH" secondAttribute="bottom" id="08R-sO-SHu"/>
+                            <constraint firstItem="9Ov-1G-Rs3" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="08v-U8-0Hz"/>
+                            <constraint firstItem="EpB-xr-dD7" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-120" id="2zy-xH-Eze"/>
+                            <constraint firstItem="3FY-bU-iIH" firstAttribute="centerX" secondItem="EpB-xr-dD7" secondAttribute="centerX" id="7S5-o8-dCK"/>
+                            <constraint firstItem="i6g-jF-T42" firstAttribute="leading" secondItem="3FY-bU-iIH" secondAttribute="trailing" constant="10" id="PwY-JC-a5M"/>
+                            <constraint firstItem="VXt-MV-pfn" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-45" id="QlL-kX-xmr"/>
+                            <constraint firstItem="9Ov-1G-Rs3" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="-60" id="RXp-ZY-AzN"/>
+                            <constraint firstItem="9Ov-1G-Rs3" firstAttribute="width" secondItem="EpB-xr-dD7" secondAttribute="width" id="VzF-Q0-snl"/>
+                            <constraint firstItem="3FY-bU-iIH" firstAttribute="width" secondItem="EpB-xr-dD7" secondAttribute="width" id="Y1x-Zn-HQh"/>
+                            <constraint firstItem="3FY-bU-iIH" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="120" id="aFy-yx-pyN"/>
+                            <constraint firstItem="9Ov-1G-Rs3" firstAttribute="height" secondItem="EpB-xr-dD7" secondAttribute="height" id="baA-ER-RsQ"/>
+                            <constraint firstItem="3FY-bU-iIH" firstAttribute="height" secondItem="EpB-xr-dD7" secondAttribute="height" id="e6R-aQ-RDl"/>
+                            <constraint firstItem="f01-QH-zU3" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="45" id="ppO-5V-Bo4"/>
+                            <constraint firstItem="i6g-jF-T42" firstAttribute="leading" secondItem="3M3-QN-1TI" secondAttribute="leading" id="scg-gX-bqv"/>
+                            <constraint firstItem="9Ov-1G-Rs3" firstAttribute="centerX" secondItem="EpB-xr-dD7" secondAttribute="centerX" id="tkz-sn-Z2y"/>
+                            <constraint firstItem="3M3-QN-1TI" firstAttribute="top" secondItem="EpB-xr-dD7" secondAttribute="top" id="u1x-fA-XXq"/>
+                            <constraint firstItem="VXt-MV-pfn" firstAttribute="leading" secondItem="3M3-QN-1TI" secondAttribute="leading" id="ucM-0y-PNU"/>
+                            <constraint firstItem="f01-QH-zU3" firstAttribute="leading" secondItem="3M3-QN-1TI" secondAttribute="leading" id="wRA-WH-qS8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="angry" width="500" height="533"/>
+        <image name="happy" width="500" height="533"/>
+        <image name="soso" width="500" height="533"/>
+    </resources>
+</document>

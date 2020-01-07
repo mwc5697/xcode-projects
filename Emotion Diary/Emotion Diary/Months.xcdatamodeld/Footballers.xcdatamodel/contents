@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14492.1" systemVersion="18G87" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PlayerMO" representedClassName="PlayerMO" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="isFavorite" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="lastname" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="month" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="rank" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES">
+            <userInfo/>
+        </attribute>
+        <relationship name="team" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TeamMO" inverseName="roster" inverseEntity="TeamMO">
+            <userInfo/>
+        </relationship>
+    </entity>
+    <entity name="TeamMO" representedClassName="TeamMO" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <relationship name="roster" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PlayerMO" inverseName="team" inverseEntity="PlayerMO">
+            <userInfo/>
+        </relationship>
+    </entity>
+    <elements>
+        <element name="PlayerMO" positionX="-27" positionY="18" width="128" height="135"/>
+        <element name="TeamMO" positionX="222.125" positionY="42.44921875" width="128" height="73"/>
+    </elements>
+</model>
